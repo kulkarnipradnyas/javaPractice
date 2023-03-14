@@ -89,7 +89,7 @@ class ServerFactory implements ComputerAbstractFactory {
 
 class AbstractFactoryPattern {
 	private static void testAbstractFactory() {
-		// here using Big factory we can call subfactories
+		// here using Big factory we can call sub factories
 		Computer pc = ComputerFactory.getComputer(new LaptopFactory("2 GB"));
 		Computer server = ComputerFactory.getComputer(new ServerFactory("16 GB"));
 		System.out.println("AbstractFactory PC Config::" + pc);

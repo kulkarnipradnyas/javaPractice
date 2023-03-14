@@ -83,6 +83,8 @@ public class ArrayListCustom {
 			l.add(i);
 			i++;
 		}
+		
+		l.get(0);
 		System.out.println("List: " + l);
 		System.out.println("Size: " + l.getSize());
 		System.out.println("Find: " + l.get(2));
